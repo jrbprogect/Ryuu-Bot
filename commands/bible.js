@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { convertToGothic } = require('../fontUtils');
 
 module.exports = {
     name: "bible",
@@ -15,7 +16,7 @@ module.exports = {
                 const verse = response.data;
                 const message = `${verse.reference}:\n\n${verse.text}\n\nTranslation: ${verse.translation_name}`;
 
-                await api.sendMessage(convertToGothic(message, threadID, messageID));
+                await api.sendMessage(convertToGothic(message), threadID, messageID);
             } else {
                 await api.sendMessage(convertToGothic("Failed to fetch a Bible verse. Please try again."), threadID, messageID);
             }
