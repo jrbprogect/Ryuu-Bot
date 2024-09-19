@@ -15,13 +15,13 @@ module.exports = {
                 const verse = response.data;
                 const message = `${verse.reference}:\n\n${verse.text}\n\nTranslation: ${verse.translation_name}`;
 
-                await api.sendMessage(message, threadID, messageID);
+                await api.sendMessage(convertToGothic(message, threadID, messageID));
             } else {
-                await api.sendMessage("Failed to fetch a Bible verse. Please try again.", threadID, messageID);
+                await api.sendMessage(convertToGothic("Failed to fetch a Bible verse. Please try again."), threadID, messageID);
             }
         } catch (error) {
             console.error(error);
-            await api.sendMessage("An error occurred while fetching the Bible verse.", threadID, messageID);
+            await api.sendMessage(convertToGothic("An error occurred while fetching the Bible verse."), threadID, messageID);
         }
     }
 };
