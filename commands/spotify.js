@@ -43,10 +43,10 @@ module.exports = {
           const fileResponse = await axios.get(downloadLink, { responseType: 'arraybuffer' });
           fs.writeFileSync(filePath, fileResponse.data);
 
-          await api.sendMessage(lyricsMessage, event.threadID, event.messageID);
+          await api.sendMessage(lyricsMessage, event.threadID);
           await api.sendMessage({
             attachment: fs.createReadStream(filePath)
-          }, event.threadID, event.messageID);
+          }, event.threadID);
         } catch (downloadError) {
           console.error(downloadError);
           await api.sendMessage(convertToGothic("An error occurred while downloading the track."), event.threadID, event.messageID);
