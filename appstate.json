@@ -1,0 +1,58 @@
+{
+  "cookie": [
+    {
+      "key": "datr",
+      "value": "-MfqZtjMWbdX4iqQYCRCAr6v",
+      "domain": "facebook.com",
+      "path": "/",
+      "hostOnly": true,
+      "creation": "2024-09-18T12:30:52.493Z",
+      "lastAccessed": "2024-09-18T12:30:52.493Z"
+    },
+    {
+      "key": "sb",
+      "value": "-MfqZu7AbWoH65omRUTRe4Tr",
+      "domain": "facebook.com",
+      "path": "/",
+      "hostOnly": true,
+      "creation": "2024-09-18T12:30:52.493Z",
+      "lastAccessed": "2024-09-18T12:30:52.493Z"
+    },
+    {
+      "key": "c_user",
+      "value": "61552865191775",
+      "domain": "facebook.com",
+      "path": "/",
+      "hostOnly": true,
+      "creation": "2024-09-18T12:30:52.493Z",
+      "lastAccessed": "2024-09-18T12:30:52.493Z"
+    },
+    {
+      "key": "fr",
+      "value": "0uve2xC4psd3my6Uh.AWUcoApNuDwMwnECqczimhyPsgA.Bm6sf4..AAA.0.0.Bm6sf4.AWUQvANNNYw",
+      "domain": "facebook.com",
+      "path": "/",
+      "hostOnly": true,
+      "creation": "2024-09-18T12:30:52.494Z",
+      "lastAccessed": "2024-09-18T12:30:52.494Z"
+    },
+    {
+      "key": "xs",
+      "value": "48%3A6JZl-CbHFQidAg%3A2%3A1726662649%3A-1%3A11609",
+      "domain": "facebook.com",
+      "path": "/",
+      "hostOnly": true,
+      "creation": "2024-09-18T12:30:52.494Z",
+      "lastAccessed": "2024-09-18T12:30:52.494Z"
+    },
+    {
+      "key": "m_page_voice",
+      "value": "61552865191775",
+      "domain": "facebook.com",
+      "path": "/",
+      "hostOnly": true,
+      "creation": "2024-09-18T12:30:52.494Z",
+      "lastAccessed": "2024-09-18T12:30:52.494Z"
+    }
+  ]
+}
